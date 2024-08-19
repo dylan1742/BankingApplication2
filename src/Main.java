@@ -24,10 +24,9 @@ todo (easier):
 */
 
 import java.lang.String;
-import java.util.Arrays;
 
 
-public class App {
+public class Main {
     public static void Spacer(String title) {
         for (int i = 0; i < 10; i++) {
             System.out.println("-");
@@ -129,7 +128,7 @@ public class App {
 
         // monthly to dos (needs to be in a loop checking every 30 minutes)
         Spacer("Checking if it is the first of the month");
-        BankManager.thirtyMinChecks();
+        //BankManager.thirtyMinChecks();
 
         // try to transfer between account too much
         Spacer("Transfer between accounts too much");
@@ -142,7 +141,7 @@ public class App {
         // transfer more than what the user has in the account to another user
         Spacer("Transferring over the account balance to another user");
 
-        
+
 
 
 
