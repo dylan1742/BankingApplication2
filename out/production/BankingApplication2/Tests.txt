@@ -1,0 +1,11 @@
+Main method test for creating and deleting accounts:
+
+        AccountManager accountManager = new AccountManager();
+        accountManager.createAccount("Bill","Account", 10);
+        accountManager.createAccount("Amy","Edgar",20);
+        accountManager.createAccount("Jane","Yolo",30);
+        accountManager.createAccount("ryan","Wap",40);
+        Spacer();
+        System.out.println(accountManager.getAccounts());
+        accountManager.closeAccount(4);
+        System.out.println(accountManager.getAccounts());
