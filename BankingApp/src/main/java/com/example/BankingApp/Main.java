@@ -1,4 +1,4 @@
-/*
+package com.example.BankingApp;/*
 todo (harder):
 
 
@@ -25,7 +25,10 @@ todo (easier):
 
 import java.lang.String;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class Main {
     public static void Spacer(String title) {
         for (int i = 0; i < 10; i++) {

@@ -1,9 +1,8 @@
-/*
+package com.example.BankingApp;/*
 todo:
  -
  */
 
-import java.time.LocalDate;
 public class ComplianceManager {
     private final static int minBalance = 10;
     private final static int maxTransfer = 10000;

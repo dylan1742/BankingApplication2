@@ -1,4 +1,4 @@
-/*
+package com.example.BankingApp;/*
 todo:
  - close individual accounts (just investment and savings not checking)
  - open individual accounts
