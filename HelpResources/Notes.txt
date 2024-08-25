@@ -1,0 +1,22 @@
+todo (harder):
+
+
+
+
+
+
+ - encapsulation - make methods and variables private as needed and use getters and setters to access things
+ - error handling for all classes and methods
+ - handle wrong unit errors
+ - connect to a database
+ - incorporate date into savings account, investment account, and user for when they created or deleted an account
+ - add a foreign currency exchange based on an api
+ - add interest to the savings accounts by using date (see if you can get an api for the fed's rate to pass to users
+   but research if banks add a few more points to it)
+ - create a front end??
+
+
+todo (easier):
+ - test new methods in compliance manager
+ - hava a loop for check balances by using time (checks every 30 minutes)
+*/
